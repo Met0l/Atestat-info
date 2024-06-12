@@ -7,8 +7,8 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-section">
           <h3>Social media ??? </h3>
-          <p>Instagram: pinkfloyd</p>
-          <p>Youtube: Pink Floyd</p>
+          <p>Instagram: </p>
+          <p>Youtube: </p>
           <p>Fax: +40 254 213 457</p>
         </div>
         <div className="footer-section">

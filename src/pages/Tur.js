@@ -4,7 +4,7 @@ import ReactDom from 'react-dom';
 function Curiozitati(){
     return(
         <>
-          <div> suntem curiosi </div>
+          <div> 2023 tour </div>
         </>
     )
 }

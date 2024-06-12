@@ -4,7 +4,7 @@ import ReactDom from 'react-dom';
 function Concerte(){
     return (
         <>
-          <div> concertam luni </div>
+          <div> am concertat luni </div>
         </>
     )
 }

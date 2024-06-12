@@ -10,7 +10,7 @@ function Navbar(){
             <div className='navbar-container'>
             <Link to="/" className='navbar-logo'>
                 {/* CND <i className="fa-solid fa-circle"></i> */}
-                Pink Floyd 
+                Megadeth
             </Link>
             <ul className='nav-menu'>
                 <li className='nav-item'>
@@ -24,18 +24,18 @@ function Navbar(){
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/curiozitati' className='nav-links'>
-                        Curiozitati
+                    <Link to='/tur' className='nav-links'>
+                        Tur
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/galerie' className='nav-links'>
-                        Galerie Foto
+                    <Link to='/media' className='nav-links'>
+                        Media
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/concerte' className='nav-links'>
-                        Concerte
+                    <Link to='/noutati' className='nav-links'>
+                        Noutati
                     </Link>
                 </li>
             </ul>

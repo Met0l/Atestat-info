@@ -1,0 +1,33 @@
+
+.album-container {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #a82323;
+    border-radius: 4px;
+    padding: 16px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.album-cover {
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+/*.album-details {
+    display: flex;
+    flex-direction: column;
+}*/
+
+.album-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 16px 0;
+}
+
+.album-tracklist {
+    padding-left: 20px;
+    margin: 0;
+}

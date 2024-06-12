@@ -5,9 +5,9 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Membri from './pages/Membri';
 import Discografie from './pages/Discografie';
-import Curiozitati from './pages/Curiozitati';
-import Concerte from './pages/Concerte';
-import GalerieFoto from './pages/GalerieFoto';
+import Tur from './pages/Tur';
+import Noutati from './pages/Noutati';
+import Media from './pages/Media';
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Membri/>} />
         <Route path='/discografie' element={<Discografie/>} />
-        <Route path='/curiozitati' element={<Curiozitati/>} />
-        <Route path='/galerie' element={<GalerieFoto/>} />
-        <Route path='/concerte' element={<Concerte/>} />
+        <Route path='/tur' element={<Tur/>} />
+        <Route path='/media' element={<Media/>} />
+        <Route path='/noutati' element={<Noutati/>} />
       </Routes>
       <Footer  />  
     </Router>

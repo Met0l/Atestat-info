@@ -1,10 +1,12 @@
 import react from 'react';
 import ReactDom from 'react-dom';
+import Membru from '../components/Membru'
 
 function Membri(){
     return (
         <>
-          <div> haha </div>
+          <br></br>
+          <Membru imageSrc='Dave_close_up.jpg' title='Dave Mustaine'/>
         </>
     )
 }
