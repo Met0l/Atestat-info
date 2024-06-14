@@ -1,5 +1,5 @@
-import react from 'react';
-import ReactDom from 'react-dom';
+/*import react from 'react';
+import ReactDom from 'react-dom';*/
 import {Link} from 'react-router-dom';
 import'./Navbar.css';
 
@@ -9,7 +9,6 @@ function Navbar(){
         <nav className='navbar'>
             <div className='navbar-container'>
             <Link to="/" className='navbar-logo'>
-                {/* CND <i className="fa-solid fa-circle"></i> */}
                 Megadeth
             </Link>
             <ul className='nav-menu'>

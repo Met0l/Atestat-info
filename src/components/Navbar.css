@@ -55,9 +55,9 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid #9B7D00;
     transition: all 0.2s ease-out;
-    line-height: 50px;
+    line-height: 20px;
     list-style-type: none;
     margin: 15px 0;
     text-decoration: none;
