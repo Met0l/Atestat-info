@@ -104,6 +104,88 @@ const tracklistTSHF = [
   'My Kingdom'
 ];
 
+const tracklistRisk = [
+  'Insomnia',
+  'Prince of Darkness',
+  'Enter the Arena',
+  "Crush 'Em",
+  'Breadline',
+  'The Doctor Is Calling',
+  "I'll Be There",
+  'Wanderlust',
+  'Ecstasy',
+  'Seven',
+  'Time: The Beginning',
+  'Time: The End'
+];
+
+const tracklistCrypticWritings = [
+  'Trust',
+  'Almost Honest',
+  'Use the Man',
+  'Mastermind',
+  'The Disintegrators',
+  "I'll Get Even",
+  'Sin',
+  'A Secret Place',
+  'Have Cool, Will Travel',
+  'She-Wolf',
+  'Vortex',
+  'FFF'
+];
+
+const tracklistYouthanasia = [
+  'Reckoning Day',
+  'Train of Consequences',
+  'Addicted to Chaos',
+  'A Tout Le Monde',
+  'Elysian Fields',
+  'The Killing Road',
+  'Blood of Heroes',
+  'Family Tree',
+  'Youthanasia',
+  'I Thought I Knew It All',
+  'Black Curtains',
+  'Victory'
+];
+
+const tracklistCountdown = [
+  "Skin o' My Teeth",
+  'Symphony of Destruction',
+  'Architecture',
+  'Foreclosure of a Dream',
+  'Sweating Bullets',
+  'This Was My Life',
+  'Countdown to Extinction',
+  'High Speed Dirt',
+  'Psychotron',
+  'Captive Honour',
+  'Ashes in Your Mouth'
+];
+
+const tracklistRust = [
+  'Holy Wars... The Punishment Due',
+  'Hangar 18',
+  'Take No Prisoners',
+  'Five Magics',
+  'Poison Was the Cure',
+  'Lucretia',
+  'Tornado of Souls',
+  'Dawn Patrol',
+  'Rust in Peace... Polaris'
+];
+
+const tracklistPeaceSells = [
+  'Wake Up Dead',
+  'The Conjuring',
+  'Peace Sells',
+  'Devils Island',
+  'Good Mourning/Black Friday',
+  'Bad Omen',
+  'I Ain\'t Superstitious',
+  'My Last Words'
+];
+
   return(
     <>
       <div className='title'>
@@ -116,7 +198,13 @@ const tracklistTSHF = [
       <Album imageSrc='Endgame.jpg' title='Endgame' albumPic='Endgame-album-title.png' tracklist={tracklistEndgame}/>
       <Album imageSrc='UnitedAbominations.jpg' title='United Abominations' albumPic='UnitedAbominations-album-title.png' tracklist={tracklistUnitedAbominations}/>
       <Album imageSrc='TheSystemHasFailed.jpg' title='The System Has Failed' albumPic='TheSystemHasFailed-album-title.png' tracklist={tracklistTSHF}/>
-      
+      <Album imageSrc='Risk.jpg' title='Risk' albumPic='Risk-album-title.png' tracklist={tracklistRisk} />
+      <Album imageSrc='CrypticWritings.jpg' title='Cryptic Writings' albumPic='CrypticWritings-album-title.png' tracklist={tracklistCrypticWritings} />
+      <Album imageSrc='Youthanasia.jpg' title='Youthanasia' albumPic='Youthanasia-album-title.png' tracklist={tracklistYouthanasia} />
+      <Album imageSrc='Countdown.jpg' title='Countdown to Extinction' albumPic='Countdown-album-title.png' tracklist={tracklistCountdown} />
+      <Album imageSrc='Rust.jpg' title='Rust in Peace' albumPic='Rust-album-title.png' tracklist={tracklistRust} />
+      <Album imageSrc='PeaceSells.jpg' title="Peace Sells... But Who's Buying?" albumPic='PeaceSells-album-title.png' tracklist={tracklistPeaceSells} />
+
     </>
   )
 }

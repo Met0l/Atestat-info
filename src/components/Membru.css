@@ -1,5 +1,40 @@
-img {
-    height : 30%;
-    width : 30%;
+.member-container {
+    display: flex;
+    align-items: flex-start;
+    margin: 40px;
+    /* border: 1px solid #10100f;  */
+    /* border-radius: 4px; */
 }
 
+.member-image {
+    margin-right: 40px; 
+    max-width: 250px;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.member-header {
+    font-weight: bold;
+    font-size:x-large;
+    margin-bottom: 10px;
+}
+
+.member-divider {
+    border: 0;
+    height: 2px;
+    background: #9B7D00; 
+    margin: 0 40px 15px 0; 
+}
+
+.member-list {
+    list-style-type: disc;
+    padding: 0;
+}
+
+.member-list-item {
+    margin-bottom: 5px;
+}
