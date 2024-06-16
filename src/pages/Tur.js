@@ -70,6 +70,62 @@ function Curiozitati(){
         country='Franta'
         location='Paris, Franta'
       />
+      <Concert 
+        date='20 Iunie, 2024'
+        venue='Graspop Metal Meeting'
+        flag='Belgia.png'
+        country='Belgia'
+        location='Dessel, Belgia'
+      />
+      <Concert 
+        date='21 Iunie, 2024'
+        venue='Summerside Festival'
+        flag='Elvetia.png'
+        country='Elveția'
+        location='Grenchen, Elveția'
+      />
+      <Concert 
+        date='22 Iunie, 2024'
+        venue='Nancy Open Air'
+        flag='Franta.png'
+        country='Franta'
+        location='Nancy, Franta'
+      />
+      <Concert 
+        date='24 Iunie, 2024'
+        venue='Turbinenhalle 1'
+        flag='Germania.png'
+        country='Germania'
+        location='Oberhausen, Germania'
+      />
+      <Concert 
+        date='25 Iunie, 2024'
+        venue='013 Poppodium'
+        flag='Olanda.png'
+        country='Olanda'
+        location='Tilburg, Olanda'
+      />
+      <Concert 
+        date='27 Iunie, 2024'
+        venue='Hellfest'
+        flag='Franta.png'
+        country='Franta'
+        location='Clisson, Franta'
+      />
+      <Concert 
+        date='29 Iunie, 2024'
+        venue='Resurrection Festival'
+        flag='Spania.png'
+        country='Spania'
+        location='Viveiro, Spania'
+      />
+      <Concert 
+        date='30 Iunie, 2024'
+        venue='Evil Live'
+        flag='Portugalia.png'
+        country='Portugalia'
+        location='Lisabona, Portugalia'
+      />
     </>
   )
 }
