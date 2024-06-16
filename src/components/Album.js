@@ -10,7 +10,7 @@ function Album(props){
               {/* <p className='album-tracklist'> Lista melodii:</p> */}
             </div>
             <div className='album-details'>
-              <ol className="album-tracklist"> 
+              <ol className='album-tracklist'> 
                   {props.tracklist.map((track, index) => (
                       <li key={index}>{track}</li>
                   ))}

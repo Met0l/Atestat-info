@@ -191,20 +191,84 @@ const tracklistPeaceSells = [
       <div className='title'>
         <img src='Discografie-title.png' alt='DISCOGRAFIE'/>
       </div>
-      <Album imageSrc='The SDD.jpg' title='The Sick, the Dying... and the Dead!' albumPic='SDD-album-title.png' tracklist={tracklistSDD} />
-      <Album imageSrc='Dystopia.png' title='Dystopia' albumPic='Dystopia-album-title.png' tracklist={tracklistDystopia}/>
-      <Album imageSrc='SuperCollider.jpg' title='Super Collider' albumPic='SuperCollider-album-title.png' tracklist={tracklistSC} />
-      <Album imageSrc='Thirteen.jpg' title='Thirteen' albumPic='Thirteen-album-title.png' tracklist={tracklistThirteen}/>
-      <Album imageSrc='Endgame.jpg' title='Endgame' albumPic='Endgame-album-title.png' tracklist={tracklistEndgame}/>
-      <Album imageSrc='UnitedAbominations.jpg' title='United Abominations' albumPic='UnitedAbominations-album-title.png' tracklist={tracklistUnitedAbominations}/>
-      <Album imageSrc='TheSystemHasFailed.jpg' title='The System Has Failed' albumPic='TheSystemHasFailed-album-title.png' tracklist={tracklistTSHF}/>
-      <Album imageSrc='Risk.jpg' title='Risk' albumPic='Risk-album-title.png' tracklist={tracklistRisk} />
-      <Album imageSrc='CrypticWritings.jpg' title='Cryptic Writings' albumPic='CrypticWritings-album-title.png' tracklist={tracklistCrypticWritings} />
-      <Album imageSrc='Youthanasia.jpg' title='Youthanasia' albumPic='Youthanasia-album-title.png' tracklist={tracklistYouthanasia} />
-      <Album imageSrc='Countdown.jpg' title='Countdown to Extinction' albumPic='Countdown-album-title.png' tracklist={tracklistCountdown} />
-      <Album imageSrc='Rust.jpg' title='Rust in Peace' albumPic='Rust-album-title.png' tracklist={tracklistRust} />
-      <Album imageSrc='PeaceSells.jpg' title="Peace Sells... But Who's Buying?" albumPic='PeaceSells-album-title.png' tracklist={tracklistPeaceSells} />
-
+      <Album 
+       imageSrc='The SDD.jpg'
+       title='The Sick, the Dying... and the Dead!' 
+       albumPic='SDD-album-title.png' 
+       tracklist={tracklistSDD} 
+      />
+      <Album 
+       imageSrc='Dystopia.png' 
+       title='Dystopia' 
+       albumPic='Dystopia-album-title.png' 
+       tracklist={tracklistDystopia}
+      />
+      <Album 
+       imageSrc='SuperCollider.jpg' 
+       title='Super Collider' 
+       albumPic='SuperCollider-album-title.png' 
+       tracklist={tracklistSC} 
+      />
+      <Album 
+       imageSrc='Thirteen.jpg' 
+       title='Thirteen' 
+       albumPic='Thirteen-album-title.png' 
+       tracklist={tracklistThirteen}
+      />
+      <Album 
+       imageSrc='Endgame.jpg' 
+       title='Endgame' 
+       albumPic='Endgame-album-title.png' 
+       tracklist={tracklistEndgame}
+      />
+      <Album 
+       imageSrc='UnitedAbominations.jpg' 
+       title='United Abominations' 
+       albumPic='UnitedAbominations-album-title.png' 
+       tracklist={tracklistUnitedAbominations}
+      />
+      <Album 
+       imageSrc='TheSystemHasFailed.jpg' 
+       title='The System Has Failed' 
+       albumPic='TheSystemHasFailed-album-title.png' 
+       tracklist={tracklistTSHF}
+      />
+      <Album 
+       imageSrc='Risk.jpg' 
+       title='Risk' 
+       albumPic='Risk-album-title.png' 
+       tracklist={tracklistRisk} 
+      />
+      <Album 
+       imageSrc='CrypticWritings.jpg' 
+       title='Cryptic Writings' 
+       albumPic='CrypticWritings-album-title.png' 
+       tracklist={tracklistCrypticWritings} 
+      />
+      <Album 
+       imageSrc='Youthanasia.jpg' 
+       title='Youthanasia' 
+       albumPic='Youthanasia-album-title.png' 
+       tracklist={tracklistYouthanasia}
+      />
+      <Album 
+       imageSrc='Countdown.jpg' 
+       title='Countdown to Extinction' 
+       albumPic='Countdown-album-title.png' 
+       tracklist={tracklistCountdown} 
+      />
+      <Album 
+       imageSrc='Rust.jpg' 
+       title='Rust in Peace' 
+       albumPic='Rust-album-title.png' 
+       tracklist={tracklistRust} 
+      />
+      <Album 
+       imageSrc='PeaceSells.jpg' 
+       title="Peace Sells... But Who's Buying?" 
+       albumPic='PeaceSells-album-title.png' 
+       tracklist={tracklistPeaceSells} 
+      />
     </>
   )
 }

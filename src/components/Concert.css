@@ -1,0 +1,53 @@
+.concert-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 30px 0 30px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.concert-details {
+    flex: 1;
+    margin: 0 0 0 15px;
+}
+
+.concert-location {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.concert-location img {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 5px; /*colturi rotunde*/
+}
+
+.concert-buttons {
+    flex: 1;
+    padding: 10px;
+    text-align: right;
+}
+
+.concert-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Specific button styles */
+.buy-button {
+    background-color: #9B7D00;
+}
+
+.meetgreet-button {
+    background-color: #9B7D00;
+}
