@@ -8,6 +8,10 @@
     background-color: #f9f9f9;
 }
 
+.concert-container:hover {
+    background-color: #e7e2cd;
+}
+
 .concert-details {
     flex: 1;
     margin: 0 0 0 15px;
@@ -43,9 +47,12 @@
     color: #fff;
 }
 
-/* Specific button styles */
 .buy-button {
     background-color: #9B7D00;
+}
+
+button:hover {
+    background-color: #5f4e0a;
 }
 
 .meetgreet-button {

@@ -6,20 +6,22 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h3>Social media ??? </h3>
-          <p>Instagram: </p>
-          <p>Youtube: </p>
-          <p>Fax: +40 254 213 457</p>
+          <h3>Social media</h3>
+          <p>Instagram: @megadeth</p>
+          <p>Facebook: @Megadeth</p>
+          <p>X: @megadeth</p>
         </div>
         <div className="footer-section">
-          <h3>Nu stiu ce pun aici</h3>
-          <p>Str. 1 Decembrie 1918, Nr. 22</p>
-          <p>Deva, Hunedoara, Romania</p>
-          <p>ZIP: 330025</p>
+          <h3>Muzică</h3>
+          <p>Youtube: @Megadeth</p>
+          <p>Spotify: @Megadeth</p>
+          <p>Apple Music: @Megadeth</p>
         </div>
         <div className="footer-section">
           <h3>Parteneri</h3>
-          <p>Chatgpt si youtuberi indieni</p>
+          <p>Gibson, Ibanez</p>
+          <p>Yamaha</p>
+          <p>Tama</p>
           {/* <img src="/remedia-logo.png"/> */}
         </div>
       </div>

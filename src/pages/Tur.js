@@ -32,7 +32,7 @@ function Curiozitati(){
         date='10 Iunie, 2024'
         venue='Romexpo'
         flag='Romania.png'
-        country='Romania'
+        country='România'
         location='București, România'
       />
       <Concert 
@@ -67,8 +67,8 @@ function Curiozitati(){
         date='19 Iunie, 2024'
         venue='Zenith La Vendette'
         flag='Franta.png'
-        country='Franta'
-        location='Paris, Franta'
+        country='Franța'
+        location='Paris, Franța'
       />
       <Concert 
         date='20 Iunie, 2024'
@@ -88,8 +88,8 @@ function Curiozitati(){
         date='22 Iunie, 2024'
         venue='Nancy Open Air'
         flag='Franta.png'
-        country='Franta'
-        location='Nancy, Franta'
+        country='Franța'
+        location='Nancy, Franța'
       />
       <Concert 
         date='24 Iunie, 2024'
@@ -109,8 +109,8 @@ function Curiozitati(){
         date='27 Iunie, 2024'
         venue='Hellfest'
         flag='Franta.png'
-        country='Franta'
-        location='Clisson, Franta'
+        country='Franța'
+        location='Clisson, Franța'
       />
       <Concert 
         date='29 Iunie, 2024'

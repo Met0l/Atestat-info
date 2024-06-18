@@ -9,6 +9,11 @@
 .member-image {
     margin-right: 40px; 
     max-width: 250px;
+    /* border-radius: 5px; */
+}
+
+.member-image:hover{
+    transform: scale(1.1);
 }
 
 .member-info {
