@@ -7,7 +7,7 @@ function Concert(props){
   let handleClick = () => {
     let number = Math.floor(Math.random());
     if(number%2 === 0) alert("SOLD OUT");
-    else alert("5 bilete ramase");
+    else alert("5 bilete rămase");
   };
 
   return (

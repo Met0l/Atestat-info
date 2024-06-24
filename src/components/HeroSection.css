@@ -1,0 +1,91 @@
+
+
+.hero-container{
+    /* background-color: #060606; */
+    background: url('../../public/Concert-wallpaper.webp') center center/cover no-repeat; 
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-title{
+    /* color: white;
+    font-size: 40px;
+    text-align: center; */
+    margin-top: 200x;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -90px;
+    transform: translate(-50%, -50%);    
+}
+
+.hero-logo{
+    width: 850px;
+    height: auto;
+    animation-name: glitch;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes glitch {
+    0%{
+        filter: hue-rotate(0deg);
+        opacity: 0.6;
+    }
+    25%{
+        filter: hue-rotate(360deg);
+        opacity: 1;
+    }
+    50%{
+        filter: hue-rotate(0deg);
+        opacity: 1.5;
+    }
+    50%{
+        filter: hue-rotate(360deg);
+        opacity: 1;
+    }
+    100%{
+        filter: hue-rotate(0deg);
+        opacity: 0.6;
+    }
+}
+
+.hero-text{
+    /* color: white;
+    text-align: center; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 25px;
+    font-size: 25px;
+    transform: translate(-50%, -50%);
+}
+
+.tickets-button {
+    width: 170px;
+    height: auto;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #131001;
+}
+
+button:hover {
+    background-color: #544c23;
+}
