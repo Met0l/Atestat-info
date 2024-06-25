@@ -22,8 +22,13 @@ function Footer() {
           <p>Gibson, Ibanez</p>
           <p>Yamaha</p>
           <p>Tama</p>
-          {/* <img src="/remedia-logo.png"/> */}
         </div>
+        {/* <div className="footer-section">
+          <img src="Gibson-logo.png" alt='Gibson' />
+          <img src="Ibanez-logo.png" alt='Ibanez' />
+          <img src="Yamaha-logo.png" alt='Yamaha' />
+          <img src="Tama-logo.png" alt='Tama' />
+        </div> */}
       </div>
       <div className="footer-bottom">
         <p>&copy; 2024 Pepenar Maria. All rights reserved :D.</p>

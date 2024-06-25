@@ -36,7 +36,7 @@ function Concerte(){
            date='28 Martie 2024'
            details='Suntem entuziasmați să anunțăm că pe datele de 13 și 14 aprilie poți viziona concertele sold-out live din Buenos
            Aires, Argentina pe platforma Veeps. Alătură-te acestui concert inedit, intoarcerea Megadeth în America Latină și
-           vezi un set list diferit în fiecare seară. Ia-ți acum biletele sau abonează-te la Veeps astăzi veeps.events/megadeth'
+           vezi un set list diferit în fiecare seară. Ia-ți acum biletele sau abonează-te la Veeps astăzi veeps.events/megadeth.'
           />
         </>
     )

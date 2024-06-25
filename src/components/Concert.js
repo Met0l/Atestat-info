@@ -10,6 +10,14 @@ function Concert(props){
     else alert("5 bilete rămase");
   };
 
+  let meetGreetClick = () => {
+    let text1 = "Meet & Greet: 1000 lei";
+    let text2 = "Ii vezi destul in poze";
+    let randNumber = Math.random();
+    let selectedText = randNumber < 0.5 ? text1 : text2;
+    alert(selectedText);
+  };
+
   return (
     <>
         <div className='concert-container'>
@@ -23,7 +31,7 @@ function Concert(props){
             </div>
             <div className='concert-buttons'>
                 <button onClick={handleClick} className='buy-button'>Bilete</button>
-                <button className='meetgreet-button'>Meet & Greet</button>
+                <button onClick={meetGreetClick} className='meetgreet-button'>Meet & Greet</button>
             </div>
         </div>
     </>  

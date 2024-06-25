@@ -38,7 +38,6 @@
     animation-iteration-count: infinite;
 }
 
-
 @keyframes glitch {
     0%{
         filter: hue-rotate(0deg);
@@ -83,7 +82,7 @@
     border: none;
     border-radius: 5px;
     color: #fff;
-    background-color: #131001;
+    background-color: #232320;
 }
 
 button:hover {

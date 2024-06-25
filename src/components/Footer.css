@@ -29,11 +29,12 @@
   .footer-section p {
     margin: 0;
   }
-  
-  /*.footer-section ul {
-    list-style: none;
-    padding: 0;
-  }*/
+
+  .footer-section img {
+    display: flex;
+    margin:0 0 10px 0;
+    width: 100px;
+  }
   
   .footer-bottom {
     margin-top: 20px;

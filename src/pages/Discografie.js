@@ -233,6 +233,7 @@ const tracklistPeaceSells = [
        albumPic='TheSystemHasFailed-album-title.png' 
        tracklist={tracklistTSHF}
       />
+      {/* The world needs a hero */}
       <Album 
        imageSrc='Risk.jpg' 
        title='Risk' 
@@ -263,12 +264,14 @@ const tracklistPeaceSells = [
        albumPic='Rust-album-title.png' 
        tracklist={tracklistRust} 
       />
+      {/* So far so good... So what! */}
       <Album 
        imageSrc='PeaceSells.jpg' 
        title="Peace Sells... But Who's Buying?" 
        albumPic='PeaceSells-album-title.png' 
        tracklist={tracklistPeaceSells} 
       />
+      {/* Killing is my business... and business is good! */}
     </>
   )
 }
